@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<!-- https://www.youtube.com/watch?v=UkeDo1LhUqQ&feature=youtu.be -->
+
+<body>
+  <div class="borde">
+    <img class="borde_fijo border-t" src="./imgs/border-top.png" alt="border-top">
+    <img class="borde_fijo border-r" src="./imgs/border-right.png" alt="border-right">
+    <img class="borde_fijo border-b" src="./imgs/border-bottom.png" alt="border-bottom">
+    <img class="borde_fijo border-l" src="./imgs/border-left.png" alt="border-left">
+  </div>
+  <!-- Extra Small Siempre esta -->
+  <!-- sm -> Small >= 576 px -->
+  <!-- md -> Medium >= 768 px -->
+  <!-- lg -> Large >= 992px-->
+  <!-- xl -> X-large --> 
+  <!-- xxl -> XX-Large -->
+  <section class="container-fluid bg-black">
+    <div class="container align-items-center d-flex flex-column gap-3 flex-sm-row justify-content-between py-4 px-2 px-md-0 m-auto">
+      <div class="d-flex gap-5 align-items-center common-text nav_inicial">
+        <a class="navbar-brand" href=""><p>AMERICA</p></a>
+        <a class="navbar-brand" href=""><p>PRIVACITY</p></a>
+        <a class="navbar-brand" href=""><p>CONTACT</p></a>
+      </div>
+      <div class="d-flex gap-5">
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-twitch"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+    </div>
+  </section>
+  <ul class="dropdown" id="menu">
+    <a href="#" class="nav__menu nav__menu--second imagen_up">
+        <img src="./imgs/close.svg" class="nav__icon ">
+      </a>
+    <img src="./imgs/logo.svg" class="dropdown__icon">
+    <div class="dropdown_item_med">
+      <a class="common-text " href=""><p>CONTACT</p></a>
+      <a class="common-text d-flex gap-3" href=""><P>COMING</P> <P>SOON</P></a>
+      <a class="common-text d-flex gap-3" href="">404</a>
+      <a class="common-text d-flex gap-3" href=""><P>AGE</P> <P>CHECK</P></a>
+      <a class="common-text d-flex gap-3" href=""><P>SUB</P> <P>MENU</P> <p>EXAMPLE</p></a>
+    </div>
+    <p class="dropdown_item_bot">© 2020 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. All Rights Reserved.
+    </p>
+  </ul>
+
+  <ul class="dropdown_uno esconder_uno" id="menu_uno">
+    <a href="#" class="nav__menu_uno nav__menu_uno--second imagen_up_uno">
+        <img src="./imgs/close.svg" class="nav__icon_uno">
+    </a>
+    <img src="./imgs/logo.svg" class="dropdown__icon_uno">
+    <div class="dropdown_item_med">
+      <a class="common-text" href="./index.html"><p>HOME</p></a>
+      <a class="common-text" href="./shop.html"><P>SHOP</P></a>
+      <a class="common-text" href="./curriculum_vitae.html">ABOUT US</a>
+      <a class="common-text" href="./account.html"><P>ACCOUNT</P></a>
+      <a class="common-text" href="./cart.html"><P>CART</P></a>
+      <a class="common-text" href=""><P>CONTACT US</P></a>
+
+    </div>
+  </ul>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-color-black nav navegador">
+			<div class="container px-4">
+				<a class="navbar-brand big-text d-flex" href="index.html"><p>GOD</p><p>LIKE</p></a>
+				<div class="esconder">
+					<ul class="navbar-nav mb-md-0 gap-5">
+            <li><a class="nav-link fs-4" href="./index.html">Home</a></li>
+						<li><a class="nav-link fs-4" href="./shop.html">Shop</a></li>
+						<li><a class="nav-link fs-4" href="./curriculum_vitae.html">About us</a></li>
+						<li><a class="nav-link fs-4" href="./account.html">Account</a></li>
+						<li><a class="nav-link fs-4" href="./cart.html">Cart</a></li>
+						<li><a class="nav-link fs-4" href="">Contact us</a></li>
+					</ul>
+				</div>
+        <a href="#menu_uno" class="nav__menu_uno"><img src="./imgs/menu.svg" class="nav__icon"></a>
+        
+        
+        <a href=""><i class="bi bi-search fs-2 text-white"></i></a>
+        <a href=""><i class="bi bi-cart-plus-fill fs-2 text-white"></i></a>
+        
+        <a href="#menu" class="nav__menu"><img src="./imgs/menu.svg" class="nav__icon"></a>
+        
+			</div>
+    </nav>
+    
+  <div class="seccion_dos">
+    <section class="iconos_izquierda">
+      <a href="" class="dos_tran">
+        <i class="bi bi-facebook icono_med"></i>
+        <p>Facebook</p>
+      </a>
+      <a href="" class="dos_tran">
+        <i class="bi bi-twitter icono_med"></i>
+        <p>Twitter</p>
+      </a>
+      <a href="" class="dos_tran">
+        <i class="bi bi-google icono_med"></i>
+        <p>Google Plus</p>
+      </a>
+    </section>
+    <section class="dos_items">
+      <img src="./imgs/logo.svg" alt="logotipo" class="img-fluid px-4">
+      <div class="d-flex flex-column gap-3 flex-sm-row">
+        <button type="button" class="bton btn_l common-text"><P>PURCHARSE</P></button>
+        <button type="button" class="bton btn_r common-text"><P>DOWNLOAD NOW</P></button>
+      </div>
+    </section>
+  </div>
+
+  <section class="seccion_tres">
+    <video id="background-video" autoplay loop muted poster="./imgs/page-background.jpg">
+      <source src="./imgs/Fire_Background.mp4" type="video/mp4">
+    </video>
+
+    <div id="carouselExample" class="carousel slide carousel_move">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imgs/carusel1.png" class="d-block w-100" alt="img1">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/carusel2.png" class="d-block w-100" alt="img2">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/carusel3.png" class="d-block w-100" alt="img3">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/carusel4.png" class="d-block w-100" alt="img4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="card-group card_g_edit">
+      <div class="card card_edit">
+        <i class="bi bi-controller card_icono"></i>
+        <div class="card-body">
+          <h2 class="card-title">Incredible Atmosphere</h2>
+          <p class="card-text">Second Made make spirit green divide lesser creeping void and night replenish cattle don't was female first their day open.</p>
+        </div>
+      </div>
+      <div class="card card_edit">
+        <i class="bi bi-fire card_icono"></i>
+        <div class="card-body">
+          <h2 class="card-title">Catchy Battles</h2>
+          <p class="card-text">Image their gathered. Every. Called together signs winged, unto midst sea life air them. Us sea them shall you saw.</p>
+        </div>
+      </div>
+      <div class="card card_edit">
+        <i class="bi bi-award-fill card_icono"></i>
+        <div class="card-body">
+          <h2 class="card-title">28 Awards</h2>
+          <p class="card-text">Moveth fruitful it appear wherein man don't firmament set blessed. Beast seas god itself. Made night image male. Own night.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion_cuatro">
+    <article class="cuatro_content">
+      <div class="card cuatro_card text-center">
+        <div class="card-header cuatro_card-header">
+          About The Game
+        </div>
+        <div class="card-body">
+          <p class="card-text">Together face In. His called Two lesser given divide. From, cattle saying be was doesn't set. Creature bearing life wherein dominion in saying them moveth first have. Under set darkness over light beast face fill from in after isn't first own all fowl itself evening also, grass doesn't Sea. Created very likeness herb wherein from lesser was bring brought above. Bearing tree a grass very.</p>
+        </div>
+      </div>
+    </article>
+
+    <div class="card-group cuatro_card_edit">
+      <div class="card cuatro_card_edit">
+        <div class="card-body cuatro_card-bod">
+          <h2 class="card-title">65</h2>
+          <p class="card-text">Unique Classes</p>
+        </div>
+      </div>
+      <div class="card cuatro_card_edit">
+        <div class="card-body cuatro_card-bod">
+          <h2 class="card-title">145</h2>
+          <p class="card-text">Epic Bosses</p>
+        </div>
+      </div>
+      <div class="card cuatro_card_edit">
+        <div class="card-body cuatro_card-bod">
+          <h2 class="card-title">35</h2>
+          <p class="card-text">Castles</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion_cinco">
+    <video id="background-video" autoplay loop muted poster="./imgs/page-background.jpg">
+      <source src="./imgs/Fire_Background.mp4" type="video/mp4">
+    </video>
+
+    <div id="carouselExampleIndicators" class="carousel slide cinco_carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner cinco_carousel_imgs">
+        <div class="carousel-item active">
+          <img src="./imgs/second1.png" class="d-block w-100" alt="carusel_uno">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/second2.png" class="d-block w-100" alt="carusel_dos">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/second3.png" class="d-block w-100" alt="carusel_tres">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/second4.png" class="d-block w-100" alt="carusel_cuatro">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/second5.png" class="d-block w-100" alt="carusel_cinco">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="seccion_seis">
+    <article class="seis_content">
+      <div class="card seis_card text-center">
+        <div class="card-header seis_card-header">
+          GodLike II
+        </div>
+        <div class="card-body">
+          <p class="card-text">You don't get to be great without a victory...</p>
+        </div>
+      </div>
+    </article>
+
+    <div class="card-group cuatro_card_edit">
+      <div class="card seis_card_edit">
+        <div class="card-body cuatro_card-bod">
+          <h2 class="card-title">96</h2>
+          <p class="card-text">Days</p>
+        </div>
+      </div>
+      <div class="card seis_card_edit">
+        <div class="card-body cuatro_card-bod">
+          <h2 class="card-title">02</h2>
+          <p class="card-text">Hours</p>
+        </div>
+      </div>
+      <div class="card seis_card_edit">
+        <div class="card-body cuatro_card-bod">
+          <h2 class="card-title">14</h2>
+          <p class="card-text">Minutes</p>
+        </div>
+      </div>
+      <div class="card seis_card_edit">
+        <div class="card-body cuatro_card-bod">
+          <h2 class="card-title">00</h2>
+          <p class="card-text">Seconds</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion_siete">
+    <div class="card siete_card_edit">
+      <h2 class="card-title">Subscribe to our Newsletter</h2>
+      <div class="card-body">
+        <section class="siete_body_but">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email *">
+          <button type="button" class="bton btn_l common-text"><P>SUBSCRIBE</P></button>
+        </section>
+        <p class="card-text">We'll never share your email with anyone else.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="seccion_ocho">
+    <!-- division background llamas -->
+  </section>
+
+  <footer>
+    <div class="footer_interior">
+      <section class="footer_interior_dos footer_item_uno">
+        <img src="./imgs/footer-logo-godlike.png" alt="godlike">
+        <img src="./imgs/footer-logo-yp3.png" alt="yp3">
+        <img src="./imgs/footer-logo-nk-team.png" alt="nk-team">
+        <img src="./imgs/footer-logo-pegi-18.png" alt="pegi-18">
+        <img src="./imgs/footer-logo-18-restricted.png" alt="18-restricted">
+      </section>
+      <section class="footer_item_dos">
+        <p>© 2020 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. GodLike and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries. All other trademarks or trade names are the property of their respective owners. All Rights Reserved.
+          <br><br>
+          GodLike ®: The Darkness™ is a fowl beginning there Over had moveth so land wherein, fruit very gathering of, female creepeth. Dominion above sea gathered unto whales. Subdue to, have Life fowl firmament wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air whose. Green in face tree to spirit life. Place stars. It two. Deep seed man isn't third. Own he is may had darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth fourth open female.</p>
+      </section>
+      <section class="footer_item_tres">
+        <a href="">Terms of Service </a>
+        |
+        <a href="">Privacy Policy</a>
+      </section>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
