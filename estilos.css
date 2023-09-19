@@ -785,8 +785,11 @@ footer{
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 
-}
+  .cuatro_card_edit{
+    margin: 2vw 2vw;
+  }
 
+}
 
 
 @media (max-width: 576px){
@@ -796,5 +799,9 @@ footer{
 
   .seccion_ocho{
     background-size: cover;
+  }
+
+  .seis_card-header{
+    font-size: 3.5rem;
   }
 }
