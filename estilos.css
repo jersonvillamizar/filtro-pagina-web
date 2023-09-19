@@ -34,7 +34,11 @@
 
 body a{
   text-decoration: none;
-  color: #FFF;
+  color: white;
+}
+
+body a:hover{
+  color: #b4b4b4b4;
 }
 
 body {
@@ -213,7 +217,6 @@ p {
 .dropdown_item_med a{
   font-weight: 900;
   text-decoration: none;
-  color: white;
   margin: auto;
 }
 
@@ -606,7 +609,6 @@ footer{
 }
 
 .footer_item_tres a{
-  color: #FFF;
 }
 
 /* -------------------------- SHOP*/
@@ -675,7 +677,6 @@ footer{
 }
 
 .shop_oculto a{
-  color: #999;
   font-size: 2rem;
 }
 
@@ -704,7 +705,6 @@ footer{
 }
 
 .shop_seccion_tres a{
-  color: #FFF;
   background-color: #0e0e0e;
   font-size: 2rem;
 }
