@@ -71,7 +71,7 @@ p {
 
 .boton_arriba{
   position: fixed;
-  bottom: 6vh;
+  bottom: 4vh;
   left: 50vw;
   z-index: 6;
 }
